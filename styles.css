@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "inter", sans-serif;
+}
+
+/* body {
+    max-width: 100vh;
+} */
+
+section {
+    padding: 0 24px;
+}
+
+p {
+    line-height: 1.25;
+}
+
+button {
+    background-color: #6415ff;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    color: white;
+}
+
+nav {
+    height: 80px;
+    padding-top: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.purple {
+    color: #6415ff;
+}
+
+.container {
+    padding: 96px;
+}
+
+.row {
+    /* background-color: rgb(203, 82, 82);  */
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo--img {
+    width: 40px;
+    height: 40px;
+}
+
+.logo__react {
+    /* background-color: aqua;  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+}
+
+.logo__title {
+    font-size: 24px;
+    font-weight: 900;
+    padding: 8px;
+}
+
+.nav__links {
+    /* background-color: aqua;  */
+    display: flex;
+    justify-content: center;
+}
+
+.nav__link {
+    list-style: none;
+    text-decoration: none;
+    padding: 24px 12px;
+    font-weight: 600;
+    color: rgb(33, 32, 32);
+}
+
+
+
