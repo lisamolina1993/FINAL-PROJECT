@@ -25,7 +25,8 @@ p {
     font-size: 16px;
     border: none;
     border-radius: 20px;
-    padding: 10px 15px;
+    height: calc(100px - 55px);
+    padding: 4px 30px;
     color: white;
 }
 
@@ -41,12 +42,12 @@ nav {
 }
 
 .container {
-    padding: 96px;
+    padding: 96px 32px;
 }
 
 .row {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
