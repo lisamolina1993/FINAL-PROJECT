@@ -122,6 +122,20 @@ HEADER
     align-items: center;
 }
 
+.header__email--input {
+    width: 100%;
+    border-radius: 500px;
+    /* border: 2px solid rgb (229, 231, 235); */
+    padding: 20px 192px 20px 32px;
+    /* color: rgb (35, 62, 99); */
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
 .header__email--btn {
     z-index: 2;
     margin: 8px;
@@ -135,23 +149,20 @@ HEADER
     color: #fff;
     
 }
-.header__email--input {
-    width: 100%;
-    border-radius: 500px;
-    border: 2px solid rgb (229, 231, 235);
-    padding: 20px 192px 20px 32px;
-    color: rgb (35, 62, 99);
-    font-size: 16px;
-    font-weight: 500;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    z-index: 1;
-}
 
 .header__customers--title {
-    margin: 80px 0;
+    margin-top: 80px;
     font-size: 12px;
     font-weight: 700;
     color: #a0aec0;
 }
+
+.header__customers {
+    width: 80%;
+    margin-top: 20px;
+    opacity: 0.5;
+}
+
+/* .header__wrapper--img {
+    width: calc(100% - 40%);
+} */
