@@ -94,9 +94,13 @@ HEADER
 */
 
 
-.header__secion {
+.header__section {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header__description {
     width: 40%;
 }
 
@@ -147,7 +151,7 @@ HEADER
     background-color: #6415ff;
     font-size: 16px;
     color: #fff;
-    
+
 }
 
 .header__customers--title {
@@ -165,10 +169,9 @@ HEADER
 
 .header__wrapper--img {
     display: flex;
-    flex-wrap: wrap;
-    width: calc(100% - 40%);
+    width: 60%
 }
 
 .header__img {
-    width: 350px;
+    width: 100%
 }
