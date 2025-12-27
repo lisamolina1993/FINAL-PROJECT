@@ -163,6 +163,12 @@ HEADER
     opacity: 0.5;
 }
 
-/* .header__wrapper--img {
+.header__wrapper--img {
+    display: flex;
+    flex-wrap: wrap;
     width: calc(100% - 40%);
-} */
+}
+
+.header__img {
+    width: 350px;
+}
