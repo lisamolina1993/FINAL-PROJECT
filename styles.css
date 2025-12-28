@@ -175,3 +175,61 @@ HEADER
 .header__img {
     width: 100%
 }
+
+/* 
+
+FEATURES
+
+*/
+
+.features__card {
+    padding: 12px;
+    text-align: center;
+}
+
+.features__tag {
+    font-size: 16px;
+    letter-spacing: 0.1em;
+}
+
+.features__title {
+    margin: 16px 0;
+    font-size: 24px;
+    color: #243e63;
+    line-height: 1.5;
+    letter-spacing: 0.025em;
+    font-weight: 900;
+}
+
+.features__para {
+    font-size: 18px;
+    font-weight: 500;
+    color: #7c8ba1;
+    line-height: 1.65;
+}
+
+#features .features__para {
+    max-width: 576px;
+    margin: 0 auto; /* this helped to center the paragraph */
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feature {
+    width: calc(100% / 3);
+}
+
+.feature__img--wrapper {
+    display: flex;
+    padding: 20px;
+}
+
+
+
+
+
+
+
