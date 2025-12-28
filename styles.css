@@ -182,7 +182,7 @@ FEATURES
 
 */
 
-.features__holder { /* new class to center the features section */
+#features .features__holder { /* new class to center the features section */
    display: flex;
    flex-direction: column;
    align-items: center; 
@@ -222,6 +222,7 @@ FEATURES
 .features {
     display: flex;
     flex-wrap: wrap; /* this is wrapping all the features evenly */
+    margin-top: 40px;
 }
 
 .feature {
@@ -231,7 +232,7 @@ FEATURES
 .feature__row {
     display: flex; /* without this the image and text would be stacked */
     padding: 32px 24px; /* this gives padding around each feature */
-    
+    align-items: flex-start; /* aligns items to the top */
 }
 
 .feature__img--wrapper {
@@ -239,7 +240,6 @@ FEATURES
     padding: 20px;
     border: 1px solid #e5e7eb;
     border-radius: 500px;
-    margin: auto 0;
 }
 
 .feature__img {
