@@ -20,16 +20,6 @@ p {
     line-height: 1.5;
 }
 
-.signup__button {
-    background-color: #6415ff;
-    font-size: 16px;
-    border: none;
-    border-radius: 20px;
-    height: calc(100px - 55px);
-    padding: 4px 30px;
-    color: white;
-}
-
 nav {
     height: 80px;
     padding-top: 32px;
@@ -47,9 +37,49 @@ nav {
 
 .row {
     width: 100%;
-    max-width: 1280px;
+    max-width: 1200px;
     margin: 0 auto;
 }
+
+.section__tag {
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+}
+
+.section__title {
+    margin: 16px 0;
+    font-size: 48px;
+    color: #243e63;
+    line-height: 1.5;
+    letter-spacing: 0.025em;
+    font-weight: 900;
+}
+
+.section__para {
+    font-size: 18px;
+    font-weight: 500;
+    color: #7c8ba1;
+    line-height: 1.65;
+}
+
+.btn {
+    background-color: #6415ff;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 32px 0 0;
+    font-weight: 700;
+    border: none;
+    border-radius: 50px;
+    height: calc(100px - 55px);
+}
+
+/* 
+NAVIGATION SECTION 
+*/
+
 
 .row__nav {
     display: flex;
@@ -89,8 +119,20 @@ nav {
     color: rgb(33, 32, 32);
 }
 
+.signup__button {
+    background-color: #6415ff;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    height: calc(100px - 55px);
+    padding: 4px 30px;
+    color: white;
+}
+
 /* 
+
 HEADER 
+
 */
 
 
@@ -178,14 +220,15 @@ HEADER
 
 /* 
 
-FEATURES
+FEATURES SECTION
 
 */
 
-#features .features__holder { /* new class to center the features section */
-   display: flex;
-   flex-direction: column;
-   align-items: center; 
+.row__features {
+    /* new class to center the features section */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .features__card {
@@ -193,46 +236,32 @@ FEATURES
     text-align: center;
 }
 
-.features__tag {
-    font-size: 16px;
-    letter-spacing: 0.1em;
-}
 
-.features__title {
-    margin: 16px 0;
-    font-size: 48px;
-    color: #243e63;
-    line-height: 1.5;
-    letter-spacing: 0.025em;
-    font-weight: 900;
-}
-
-.features__para {
-    font-size: 18px;
-    font-weight: 500;
-    color: #7c8ba1;
-    line-height: 1.65;
-}
-
-#features .features__para {
+#features .section__para {
     max-width: 576px;
-    margin: 0 auto; /* this helped to center the paragraph */
+    margin: 0 auto;
+    /* this helped to center the paragraph */
 }
 
 .features {
     display: flex;
-    flex-wrap: wrap; /* this is wrapping all the features evenly */
+    flex-wrap: wrap;
+    /* this is wrapping all the features evenly */
     margin-top: 40px;
 }
 
 .feature {
-    width: calc(100% / 3); /* this makes each feature take up a third of the container */
+    width: calc(100% / 3);
+    /* this makes each feature take up a third of the container */
 }
 
 .feature__row {
-    display: flex; /* without this the image and text would be stacked */
-    padding: 32px 24px; /* this gives padding around each feature */
-    align-items: flex-start; /* aligns items to the top */
+    display: flex;
+    /* without this the image and text would be stacked */
+    padding: 32px 24px;
+    /* this gives padding around each feature */
+    align-items: flex-start;
+    /* aligns items to the top */
 }
 
 .feature__img--wrapper {
@@ -258,12 +287,52 @@ FEATURES
     color: #7c8ba1;
     line-height: 2;
     font-weight: 500;
-    max-width: calc(634px / 3); /* this makes sure the paragraph doesn't stretch too wide */
+    max-width: calc(634px / 3);
+    /* this makes sure the paragraph doesn't stretch too wide */
 }
 
+/*
 
+QUALITY SECTION
 
+*/
 
+#quality .row { /* this makes align image and text next to each other */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
 
+.quality__card {
+    display: flex;
+    justify-content: space-between;
+}
 
+.quality__description {
+    width: 50%;
+    margin-right: 64px;
+    max-width: 576px;
+}
 
+.quality__img--wrapper {
+    display: flex;
+    width: 50%;
+    margin: 0 56px;
+    border: 1px solid #e5e7eb;
+    border-radius: 4px;
+}
+
+.quality__img {
+    width: 100%
+}
+
+.quality__tag {
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+}
+
+#quality .section__title {
+    line-height: 1.25;
+}
