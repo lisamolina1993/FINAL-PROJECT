@@ -304,11 +304,6 @@ QUALITY SECTION
     margin: 0;
 }
 
-.quality__card {
-    display: flex;
-    justify-content: space-between;
-}
-
 .quality__description {
     width: 50%;
     margin-right: 64px;
@@ -335,4 +330,31 @@ QUALITY SECTION
 
 #quality .section__title {
     line-height: 1.25;
+}
+
+/* 
+STEPS SECTION 
+*/
+
+#steps .row {
+    display: flex;
+    justify-content: center;
+}
+
+.steps__description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.steps__img--wrapper {
+    display: flex;
+    width: 50%;
+}
+
+.steps__img {
+    width: 100%;
+}
+
+.steps__text {
+    width: 50%;
 }
