@@ -42,6 +42,7 @@ nav {
 }
 
 .section__tag {
+    color: #6415ff;
     font-size: 16px;
     letter-spacing: 0.1em;
     font-weight: 700;
@@ -305,6 +306,8 @@ QUALITY SECTION
 }
 
 .quality__description {
+    display: flex;
+    flex-direction: column;
     width: 50%;
     margin-right: 64px;
     max-width: 576px;
@@ -343,12 +346,18 @@ STEPS SECTION
 
 .steps__description {
     display: flex;
-    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 50%;
+    padding: 32px 0;
+    padding-left: 64px;
+    /* max-width: 576px; */
 }
 
 .steps__img--wrapper {
     display: flex;
-    width: 50%;
+    align-items: center; /* this center the image and prevent it from stretching vertically */
+    width: 50%
 }
 
 .steps__img {
@@ -357,4 +366,39 @@ STEPS SECTION
 
 .steps__text {
     width: 50%;
+}
+
+.step {
+    display: flex;
+    align-items: flex-start;
+}
+
+.step__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.step__number {
+    font-size: 36px;
+    color: #cbd5e0;
+    font-weight: 600;
+    
+}
+
+.step__text {
+    display: flex;
+    flex-direction: column;
+    margin: 24px;
+    max-width: 320px;
+}
+
+.step__title {
+    font-size: 20px;
+}
+
+.step__para {
+    font-size: 14px;
+    color: #718096;
+    font-weight: 500;
+    line-height: 2;
 }
