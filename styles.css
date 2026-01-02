@@ -412,18 +412,14 @@ STEPS SECTION
 VALUES 
 */
 
-.value {
-    display: flex;
-    max-width: 576px;
-}
-
-.values__list {
-    display: flex;
-}
-
 .values__description {
     display: flex;
     flex-direction: column;
+    max-width: 576px;
+}
+
+.value {
+    display: flex;
     max-width: 576px;
 }
 
@@ -431,6 +427,7 @@ VALUES
     display: flex;
     flex-direction: column;
 }
+
 
 .value__text--para {
     display: flex;
@@ -445,10 +442,14 @@ VALUES
 
 .value__img--wrapper {
     display: flex;
-
 }
 
-#values .btn {
+.values__list {
     display: flex;
-  
+    flex-direction: column;
+}
+
+.value__title {
+    color: #243e63;
+    font-size: 20px;
 }
