@@ -432,10 +432,6 @@ VALUES
     flex-direction: column;
 }
 
-.value__para {
-    
-}
-
 .value__text--para {
     display: flex;
     flex-direction: column;
@@ -450,4 +446,9 @@ VALUES
 .value__img--wrapper {
     display: flex;
 
+}
+
+#values .btn {
+    display: flex;
+  
 }
