@@ -335,6 +335,10 @@ QUALITY SECTION
     line-height: 1.25;
 }
 
+#quality .btn {
+    align-self: flex-start;
+}
+
 /* 
 STEPS SECTION 
 */
@@ -365,7 +369,7 @@ STEPS SECTION
 }
 
 .steps__text {
-    width: 50%;
+    width: 100%;
 }
 
 .step {
@@ -382,6 +386,7 @@ STEPS SECTION
     font-size: 36px;
     color: #cbd5e0;
     font-weight: 600;
+    margin-top: 20px;
     
 }
 
@@ -401,4 +406,48 @@ STEPS SECTION
     color: #718096;
     font-weight: 500;
     line-height: 2;
+}
+
+/* 
+VALUES 
+*/
+
+.value {
+    display: flex;
+    max-width: 576px;
+}
+
+.values__list {
+    display: flex;
+}
+
+.values__description {
+    display: flex;
+    flex-direction: column;
+    max-width: 576px;
+}
+
+.value__title--list {
+    display: flex;
+    flex-direction: column;
+}
+
+.value__para {
+    
+}
+
+.value__text--para {
+    display: flex;
+    flex-direction: column;
+    color: #718096;
+
+}
+
+.value__text {
+    display: flex;
+}
+
+.value__img--wrapper {
+    display: flex;
+
 }
