@@ -299,7 +299,8 @@ QUALITY SECTION
 
 */
 
-#quality .row { /* this makes align image and text next to each other */
+#quality .row {
+    /* this makes align image and text next to each other */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -359,7 +360,8 @@ STEPS SECTION
 
 .steps__img--wrapper {
     display: flex;
-    align-items: center; /* this center the image and prevent it from stretching vertically */
+    align-items: center;
+    /* this center the image and prevent it from stretching vertically */
     width: 50%
 }
 
@@ -386,7 +388,7 @@ STEPS SECTION
     color: #cbd5e0;
     font-weight: 600;
     margin-top: 20px;
-    
+
 }
 
 .step__text {
@@ -466,13 +468,164 @@ VALUES
     align-self: flex-start;
 }
 
+.values__card {
+    display: flex;
+}
+
 .values__img {
     display: flex;
-    width: 50%;
+    width: 100%;
 }
 
 .value__main--img {
-    display: flex;
-    align-items: flex-start;
     width: 50%;
+}
+
+
+
+/*
+PRICING 
+*/
+
+#pricing .section__tag {
+    text-align: center;
+}
+
+#pricing .section__title {
+    text-align: center;
+}
+
+#pricing .section__para {
+    margin: 0 auto;
+    max-width: 576px;
+}
+
+.pricing__wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.first__title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1a202c;
+}
+
+.pricing__number {
+    font-size: 48px;
+    font-weight: bold;
+    color: #1a202c;
+}
+
+.pricing__box {
+    display: flex;
+    width: calc(100% / 3);
+    flex-direction: column;
+    margin-top: 64px;
+    margin-right: 32px;
+    border-radius: 10px;
+    background-color: rgb(255 255 255);
+}
+
+.pricing__box--mod {
+    background: linear-gradient(135deg,
+            rgb(76, 81, 191) 0%,
+            rgb(102, 126, 234) 100%);
+}
+
+.pricing__monthly {
+    font-size: 16px;
+    color: #a0aec0;
+    font-weight: bold;
+}
+
+.plan__text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 32px 0;
+    box-shadow: 0 4px 15px rgba(5, 5, 5, 0.1);
+    border-radius: 8px;
+}
+
+.plan__middle {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    box-shadow: 0 4px 15px rgba(5, 5, 5, 0.1);
+    border-radius: 8px;
+}
+
+.middle__title {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #1a202c;
+}
+
+.middle__para {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #718096;
+}
+
+.first__title--mod {
+    color: #f7fafc;
+}
+
+.pricing__number--mod {
+    color: #f7fafc;
+}
+
+.pricing__monthly--mod {
+    color: #f7fafc;
+}
+
+.middle__title--mod {
+    color: #f7fafc;
+}
+
+.middle__para--mod {
+    color: #f7fafc;
+}
+
+#pricing .middle__para {
+    line-height: 2;
+}
+
+.plan__button {
+    text-align: center;
+    padding: 32px;
+    box-shadow: 0 4px 15px rgba(5, 5, 5, 0.1);
+    border-radius: 8px;
+}
+
+.pricing__btn {
+    padding: 16px 24px 16px 24px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #f7fafc;
+    border-radius: 600px;
+    border: none;
+    width: 100%;
+}
+
+.pricing__btn--mod {
+    color: #6415ff;
+}
+
+.pricing__btn--green {
+    background: linear-gradient(135deg,
+            rgb(56, 178, 172) 0%,
+            rgb(129, 230, 217) 100%);
+}
+
+.pricing__btn--pink {
+    background: linear-gradient(135deg,
+            rgb(245, 101, 101) 0%,
+            rgb(254, 178, 178) 100%);
 }
