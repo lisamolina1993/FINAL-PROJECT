@@ -102,7 +102,6 @@ NAVIGATION SECTION
 .logo__react {
     display: flex;
     align-items: center;
-    justify-content: center;
     width: 160px;
 }
 
@@ -873,9 +872,14 @@ FOOTER
 
 .footer__link {
     margin: 24px 0;
+    display: flex;
 }
 
-.list__title {
+.item__list {
+    display: flex;
+}
+
+.footer__title {
     color: #f7fafc;
     font-size: 16px;
 }
@@ -884,4 +888,47 @@ FOOTER
     height: 2px;
     background-color: rgb(116, 44, 255);
     margin: 64px 0;
+}
+
+.react__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.react__footer {
+    display: flex;
+}
+
+.figure__wrapper {
+    display: flex;
+}
+
+.react__logo {
+    width: 32px;
+}
+
+.react__title {
+    color: #f7fafc;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+.footer__copyright {
+    align-items: center;
+    color: #cbd5e0;
+    font-weight: 700;
+}
+
+.social__link {
+    border-radius: 50%;
+    border: none;
+    padding: 8px;
+    margin-left: 16px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.social__link:hover {
+    background: #d2dff1;
 }
