@@ -686,6 +686,7 @@ TESTIMONIALS
 .img__wrapper {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 50%;
 }
 
@@ -772,4 +773,115 @@ TESTIMONIALS
 
 .buttons:hover {
     background: #edf2f7;
+}
+
+/* 
+PURPLE CONTAINER
+*/
+
+.end__container {
+    display: flex;  
+    background-color: #6415ff;
+    padding: 96px 0;
+    border-radius: 8px;
+   }
+
+.box__wrapper {
+    display: flex;
+    padding: 0 32px;
+}
+
+.box__text {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.text__box {
+    color:#f7fafc;
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: 700;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.purple__buttons {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.two__buttons {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.start__button {
+    padding: 24px 40px;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #f7fafc;
+    font-weight: 700;
+    line-height: 1.2;
+    cursor: pointer;
+    transition: all 300ms ease;
+}  
+
+.start__button--pink {
+    background-color: #f56565;
+    border: none;
+}
+
+.start__button--purple {
+    background-color: #6415ff;
+    border: 1px solid #edf2f7;
+}
+
+.start__button--pink:hover {
+    background-color: rgba(229, 62, 62); ;
+}
+
+.start__button--purple:hover {
+    background-color: rgba(247, 250, 252);
+    color: #6415ff;
+}
+
+/*
+FOOTER 
+*/
+
+#footer {
+    background-color: #6415ff;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__links {
+    list-style: none;
+    color: #f7fafc;
+    font-size: 14px;
+}
+
+.footer__link {
+    margin: 24px 0;
+}
+
+.list__title {
+    color: #f7fafc;
+    font-size: 16px;
+}
+
+.divider {
+    height: 2px;
+    background-color: rgb(116, 44, 255);
+    margin: 64px 0;
 }
