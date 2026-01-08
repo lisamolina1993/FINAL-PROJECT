@@ -962,3 +962,14 @@ FOOTER
 .social__link:hover {
     background: #d2dff1;
 }
+
+/* SMALL PHONE. TABLETS, LARGE SMARTPHONES
+*/
+
+@media (max-width: 768px) {
+    .header__title {
+        font-size: 16px;
+    }
+
+
+}
