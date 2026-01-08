@@ -264,11 +264,13 @@ HEADER
 
 .header__wrapper--img {
     display: flex;
-    width: 60%
+    width: 60%;
+    justify-content: flex-end;
 }
 
 .header__img {
-    width: 100%
+    width: 100%;
+    max-width: 512px;
 }
 
 /* 
@@ -968,7 +970,7 @@ FOOTER
 
 @media (max-width: 768px) {
     .header__title {
-        font-size: 16px;
+        font-size: 30px;
     }
 
 
