@@ -980,6 +980,7 @@ FOOTER
 #footer {
     background-color: #6415ff;
     padding: 80px 32px;
+    position: relative;
 }
 
 #footer .footer__row {
@@ -991,6 +992,7 @@ FOOTER
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
+    z-index: 2;
 }
 
 .treact__bottom {
@@ -1092,6 +1094,14 @@ FOOTER
 
 .social__link:hover {
     background: #d2dff1;
+}
+
+.circle__svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    z-index: 1;
 }
 
 /* FOR SCREENS WITH MAX-WIDTH OF 1024PX
